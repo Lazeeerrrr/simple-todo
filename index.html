@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ToDo</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            background-color: darkseagreen;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        li {
+            list-style-type: none;
+            max-width: 400px;
+            padding: 8px;
+            margin: 8px auto;
+            background: #4caf50;
+            border: 1px solid #ddd;
+            transition-duration: 0.4s;  
+            text-align: center;
+            color: white;
+        }
+        li:hover {
+            background-color: red;
+            color: white;
+            border: 1px solid white;
+            border-radius: 18px;
+            width: 1150px;
+            cursor: default;
+        }
+        
+        button {
+            outline: none;
+        }
+        button {
+            background-color: white;
+            position: absolute;
+            margin: 8px 47.5%;
+            width: 100px;
+            border-radius: 8px;
+            border: 2px solid green;
+            -webkit-transition-duration: 0.4s;
+        }
+        button:hover {
+            background-color: #4caf50;
+            color: white;
+        }
+        .block {
+            width: 100px;
+            height: 50px;
+        }
+    </style>
+</head>    
+<body>
+    
+    <div class="background">
+        <h1>ToDo</h1>
+    <div class="block"><button>Add a new ToDo</button></div>
+    <ul>
+        <li>Buy milk</li>
+        <li>Read a book</li>
+        <li>Watch a film</li>
+        <li>Write code</li>
+    </ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
